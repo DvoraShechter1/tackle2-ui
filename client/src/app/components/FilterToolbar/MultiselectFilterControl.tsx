@@ -270,6 +270,7 @@ export const MultiselectFilterControl = <TItem,>({
             isOpen={isFilterDropdownOpen}
           >
             {groups && groups.length > 0 && (
+
               <SelectList id={withPrefix("select-typeahead-listbox")}>
                 {groups.map((groupLabel) => (
                   <React.Fragment key={groupLabel}>
